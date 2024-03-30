@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="User_Stories_Test_Suite" verbose="1">
+    <test name="US401_to_US404_Test">
+        <classes>
+            <class name="User_Stories">
+                <methods>
+                    <include name="US401"/>
+                    <include name="US402"/>
+                    <include name="US403"/>
+                    <include name="US404"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
